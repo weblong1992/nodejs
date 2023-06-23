@@ -56,7 +56,6 @@ app.use((err, req, res, next) => {
   res.cc(err)
 })
 
-console.log('测试2222')
 // 启动服务器
 app.listen(3007, () => {
   console.log('api server running at http://127.0.0.1:3007')
